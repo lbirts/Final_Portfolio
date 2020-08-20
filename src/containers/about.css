@@ -1,0 +1,469 @@
+#about {
+    display: flex;
+    padding: 170px 0px;
+    padding-bottom: 120px;
+    padding-right: 200px;
+}
+
+.about-img {
+    flex-basis: 40%;
+    margin-left: 12vw;
+    z-index: 2;
+}
+
+.about-img img {
+    border-radius: 8px;
+    height: 480px;
+    width: 450px;
+}
+
+.about-content {
+    position: relative;
+    flex-basis: 60%;
+    z-index: 2;
+    margin-left: 80px;
+}
+
+.about-brief {
+    width: 42vw;
+    margin-left: -4px;
+}
+
+.about-brief h1 {
+    font-size: 3.5rem;
+    letter-spacing: -1px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.about-brief p {
+    font-size: 1.05vw;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+.about-tabs {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: -15px;
+}
+
+.tab {
+    position: relative;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 15px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    user-select: none;
+    transition: .5s;
+    transition-property: color;
+}
+
+.tab::after {
+    content: "";
+    display: block;
+    height: 2.5px;
+    max-width: 60px;
+    width: 100%;
+    transition: .5s;
+    background-color: white;
+}
+
+.active-tab::after {
+    content: "";
+    display: block;
+    background-color: #ef224b;
+    height: 2.5px;
+    max-width: 190px;
+    width: 100%;
+    transition: .5s
+}
+
+.active-tab {
+    color: #ef224b;
+}
+
+.Experience {
+    padding-bottom: 90px;
+}
+
+.Certification, .Education {
+    padding-bottom: 20px;
+}
+
+.tab-content .section {
+    margin-top: 25px;
+    height: 50px;
+    text-align: left;
+}
+
+.section h4 {
+    font-weight: 600;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
+}
+
+.section p {
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 4px;
+}
+
+.tab-content {
+    text-align: left;
+    margin-left: 16px;
+    margin-right: 20px;
+}
+
+.skillbars {
+    width: 41vw;
+    margin-top: 20px;
+    margin-left: -15px;
+}
+
+.chart {
+    position: relative;
+    display: inline-block;
+    color: #999;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 25px 45px 5px;
+}
+  
+.chart figcaption {
+    padding: 15px 13px;
+    width: 15px;
+    height: 10px;
+    border: 10px solid #f0f0f0;
+    border-radius: 100px;
+}
+
+.chart figcaption p {
+    margin-top: 37px;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 20px;
+}
+
+.html-caption {
+    margin-left: -10px;
+}
+
+.css-caption {
+    margin-left: -5px;
+}
+
+.javascript-caption {
+    margin-left: -22px;
+}
+
+.react-caption {
+    margin-left: -9px;
+}
+
+.ruby-caption {
+    margin-left: -7px;
+}
+
+.rails-caption {
+    margin-left: -5px;
+}
+
+.sql-caption {
+    margin-left: -3px;
+}
+
+.redux-caption {
+    margin-left: -13px;
+}
+
+.jquery-caption {
+    margin-left: -12px;
+}
+
+.sass-caption {
+    margin-left: -5px;
+}
+
+.python-caption {
+    margin-left: -14px;
+}
+
+.wordpress-caption {
+    margin-left: -25px;
+}
+
+.firebase-caption {
+    margin-left: -16px;
+}
+  
+.chart img {
+    position: absolute;
+    max-width: 20px;
+    max-height: 20px;
+    top: 21px;
+    left: 26px;
+}
+  
+.html + svg .outer {
+    stroke: #e34f26;
+}
+
+.redux {
+    left: 27px !important;
+}
+
+.sql {
+    left: 30px !important;
+}
+
+.jquery {
+    max-width: 30px !important;
+    max-height: 35px !important;
+    top: 16px !important;
+    left: 22px !important;
+}
+
+.sass {
+    max-width: 25px !important;
+    max-height: 35px !important;
+    top: 20px !important;
+    left: 25.5px !important;  
+}
+
+.firebase {
+    max-width: 25px !important;
+    left: 29px !important;
+}
+  
+.css + svg .outer {
+    stroke: #0968ab;
+}
+
+.javascript {
+    max-width: 90px;
+    max-height: 90px;
+}
+  
+.javascript + svg .outer {
+    stroke: #fada00;
+}
+
+.react + svg .outer {
+    stroke: #00d2f7;
+}
+
+.ruby + svg .outer {
+    stroke: #a71303;
+}
+
+.rails + svg .outer {
+    stroke: #d80000;
+}
+
+.sql + svg .outer {
+    stroke: #0e9edc;
+}
+
+.redux + svg .outer {
+    stroke: #774abc;
+}
+
+.jquery + svg .outer {
+    stroke: #1e3b5e;
+}
+
+.sass + svg .outer {
+    stroke: #ce679b;
+}
+
+.python + svg .outer {
+    stroke: #ffcb35;
+}
+
+.wordpress + svg .outer {
+    stroke: #20759a;
+}
+
+.firebase + svg .outer {
+    stroke: #FFA000;
+}
+
+.chart svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+.outer {
+    fill: transparent;
+    stroke: #333;
+    stroke-width: 11;
+    stroke-dasharray: 534;
+    transition: stroke-dashoffset 1s;
+}
+
+.off {
+    transition: stroke-dashoffset 1.5s ease-in-out;
+    stroke-dashoffset: 537;
+}
+
+.off.on90 {
+    transition: stroke-dashoffset 1.5s ease-in-out;
+    stroke-dashoffset: 393;
+}
+
+.off.on80 {
+    transition: stroke-dashoffset 1.5s ease-in-out;
+    stroke-dashoffset: 409;
+}
+
+.off.on75 {
+    transition: stroke-dashoffset 1.5s ease-in-out;
+    stroke-dashoffset: 417;
+}
+
+.off.on70 {
+    transition: stroke-dashoffset 1.5s ease-in-out;
+    stroke-dashoffset: 425;
+}
+
+.off.on65 {
+    transition: stroke-dashoffset 1.5s ease-in-out;
+    stroke-dashoffset: 432;
+}
+
+.off.on60 {
+    transition: stroke-dashoffset 1.5s ease-in-out;
+    stroke-dashoffset: 440;
+}
+
+.off.on50 {
+    transition: stroke-dashoffset 1.5s ease-in-out;
+    stroke-dashoffset: 456;
+}
+
+.off.on45 {
+    transition: stroke-dashoffset 1.5s ease-in-out;
+    stroke-dashoffset: 464;
+}
+
+.off.on40 {
+    transition: stroke-dashoffset 1.5s ease-in-out;
+    stroke-dashoffset: 472;
+}
+
+.off.on30 {
+    transition: stroke-dashoffset 1.5s ease-in-out;
+    stroke-dashoffset: 487;
+}
+
+@media (max-width: 1550px) {
+    .tab {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 1080px) {
+    .about-brief {
+        width: 35vw;
+    }
+    .skillbars {
+        width: 40vw
+    }
+}
+
+@media (max-width: 1300px) {
+    .about-img {
+        margin-left: 7vw
+    }
+    .about-content {
+        margin-right: 5vw;
+    }
+}
+
+@media (max-width: 990px) {
+    #about {
+        display: grid;
+        padding-top: 100px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .about-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about-content {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about-brief {
+        width: 85vw;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .about-brief p {
+        font-size: 2vw;
+    }
+    .about-tabs {
+        margin-left: 1px;
+    }
+    .skillbars {
+        width: 85vw;
+        margin-left: 1px;
+    }
+    .about-brief h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .about-content {
+        margin-left: 50px;
+    }
+    .about-brief p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 650px) {
+    .about-tabs {
+        width: 90vw;
+    }
+    .about-content {
+        margin-left: 40px;
+    }
+    .about-img img {
+        width: 70vw;
+        height: 75vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-brief h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 540px) {
+    .about-content {
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 399px) {
+    .about-content {
+        margin-left: 15px;
+        /* margin-right: auto; */
+    }
+}

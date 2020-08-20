@@ -1,0 +1,47 @@
+[
+    {
+      "image": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg",
+      "name": "Hangman",
+      "type": "CLI",
+      "description": "Hangman Description",
+      "tech": "Ruby",
+      "github": "https://github.com/lbirts",
+      "demo": "https://youtube.com"
+    },
+    {
+        "image": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg",
+        "name": "Tracable",
+        "type": "Web App",
+        "description": "Tracable Description",
+        "tech": "Ruby, Rails",
+        "github": "https://github.com/lbirts",
+        "demo": "https://youtube.com"
+    },
+    {
+        "image": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg",
+        "name": "LB-2000",
+        "type": "Web App",
+        "description": "Mixing app used to create and record sounds together; Utilized the MediaStream Recording API to store user’s custom sounds",
+        "tech": "Ruby, Rails, Javascript",
+        "github": "https://github.com/lbirts",
+        "demo": "https://youtube.com"
+    },
+    {
+        "image": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg",
+        "name": "Connect Us",
+        "type": "Web App",
+        "description": "Single source for information on large public and private events; Used Action Cable to allow for real time communication between attendees and organizers",
+        "tech": "Ruby, Rails, React, Javascript",
+        "github": "https://github.com/lbirts",
+        "demo": "https://youtube.com"
+    },
+    {
+        "image": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg",
+        "name": "holLife",
+        "type": "Web App",
+        "description": "Telehealth platform connected individuals with holistic practitioners and information; Used WebRTC to set up real time video chat between individuals and practitioners ",
+        "tech": "Ruby, Rails, React, Javascript",
+        "github": "https://github.com/lbirts",
+        "demo": "https://youtube.com"
+    }
+  ]
