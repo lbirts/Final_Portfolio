@@ -1,6 +1,6 @@
 [
     {
-      "image": "https://lbirts.github.io/Final_Portfolio/src/assets/CLI-Hangman.png",
+      "image": "https://lbportfolio.s3.us-east-2.amazonaws.com/CLI-Hangman.png",
       "name": "Hangman",
       "type": "CLI",
       "description": "CLI Hangman is a Command Line Interface hangman game where a player is given a random word and 10 chances to guess the correct word.",
@@ -9,37 +9,37 @@
       "demo": "https://www.youtube.com/watch?v=1bjs0Mv50yc&t=3s"
     },
     {
-        "image": "https://lbirts.github.io/Final_Portfolio/src/assets/habitual.png",
-        "name": "Tracable",
+        "image": "https://lbportfolio.s3.us-east-2.amazonaws.com/habitual.png",
+        "name": "Habitual",
         "type": "Web App",
-        "description": "Tracable Description",
+        "description": "Goal management and sharing app that allows you to create life goals, keep track of them, share with others, and support others in the completion of goals.",
         "tech": "Ruby, Rails, Bcrypt, Bootstrap",
         "github": "https://github.com/lbirts/Habitual",
         "demo": "https://habitual-goal.herokuapp.com/"
     },
     {
-        "image": "https://lbirts.github.io/Final_Portfolio/src/assets/lb-2000.png",
+        "image": "https://lbportfolio.s3.us-east-2.amazonaws.com/lb-2000.png",
         "name": "LB-2000",
         "type": "Web App",
-        "description": "Mixing app used to create tracks and record sounds that can be used to create tracks; Utilized the MediaStream Recording API to store user’s custom sounds.",
+        "description": "Mixing app used to create tracks and record sounds that can be used to create tracks.",
         "tech": "Ruby, Rails, Javascript, AWS, MediaStream Recording API",
         "github": "https://github.com/lbirts/LB-2000",
         "demo": "https://lb-2000.herokuapp.com/"
     },
     {
-        "image": "https://lbirts.github.io/Final_Portfolio/src/assets/Connect-Us.png",
+        "image": "https://lbportfolio.s3.us-east-2.amazonaws.com/Connect-Us.png",
         "name": "Connect Us",
         "type": "Web App",
-        "description": "Single source for information on large public and private events; Used Action Cable to allow for real time communication between attendees and organizers.",
+        "description": "Single source for information on large public and private events. Connects attendees and organizers together.",
         "tech": "Ruby, Rails, React, Javascript, ActionCable, Bcrypt, JSON Web Tokens",
         "github": "https://github.com/estherkimyunjung/EventApp_backend",
         "demo": "https://youtu.be/ZV7kz5FBI6A"
     },
     {
-        "image": "https://lbirts.github.io/Final_Portfolio/src/assets/holLife.png",
+        "image": "https://lbportfolio.s3.us-east-2.amazonaws.com/holLife.png",
         "name": "holLife",
         "type": "Web App",
-        "description": "Telehealth platform connected individuals with holistic practitioners and information; Used WebRTC to set up real time video chat between individuals and practitioners.",
+        "description": "Telehealth platform connecting individuals with holistic practitioners and information.",
         "tech": "Ruby, Rails, React, Javascript, WebRTC, VoiceToText, GoogleShopping",
         "github": "https://github.com/lbirts/backend_wholisticLiving",
         "demo": "https://youtube.com"
