@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.125dc039.chunk.css",
+    "main.js": "/static/js/main.8e0cc323.chunk.js",
+    "main.js.map": "/static/js/main.8e0cc323.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.b133c9f9.chunk.js": "/static/js/2.b133c9f9.chunk.js",
+    "static/js/2.b133c9f9.chunk.js.map": "/static/js/2.b133c9f9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.66a3f81b9c43941fcb14756b6a56c584.js": "/precache-manifest.66a3f81b9c43941fcb14756b6a56c584.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.125dc039.chunk.css.map": "/static/css/main.125dc039.chunk.css.map",
+    "static/js/2.b133c9f9.chunk.js.LICENSE.txt": "/static/js/2.b133c9f9.chunk.js.LICENSE.txt",
+    "static/media/HeadShot.jpg": "/static/media/HeadShot.d1cf3a3f.jpg",
+    "static/media/css.png": "/static/media/css.df2215ab.png",
+    "static/media/jquery.png": "/static/media/jquery.a5872891.png",
+    "static/media/js.png": "/static/media/js.a935cbd9.png",
+    "static/media/python.svg": "/static/media/python.fbef321e.svg",
+    "static/media/rails.png": "/static/media/rails.09043bea.png",
+    "static/media/redux.png": "/static/media/redux.8251fe76.png",
+    "static/media/ruby.svg": "/static/media/ruby.03af0f58.svg",
+    "static/media/sass.svg": "/static/media/sass.e0f651ac.svg",
+    "static/media/sql.png": "/static/media/sql.1a350423.png",
+    "static/media/wordpress.svg": "/static/media/wordpress.ddcffe46.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.b133c9f9.chunk.js",
+    "static/css/main.125dc039.chunk.css",
+    "static/js/main.8e0cc323.chunk.js"
+  ]
+}
