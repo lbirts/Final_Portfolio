@@ -97,7 +97,7 @@
 }
 
 .tab-content .section {
-    margin-top: 25px;
+    margin-top: 45px;
     height: 50px;
     text-align: left;
 }
@@ -394,6 +394,7 @@
         padding-top: 100px;
         padding-right: 0;
         padding-left: 0;
+        padding-bottom: 0;
     }
     .about-img {
         display: block;
@@ -459,11 +460,28 @@
         margin-right: auto;
         padding-right: 0;
     }
-}
-
-@media (max-width: 399px) {
-    .about-content {
-        margin-left: 15px;
-        /* margin-right: auto; */
+    .Tech {
+        margin-left: 2px;
     }
 }
+
+@media (max-width: 493px) {
+    .Certification {
+        width: 80vw;
+    }
+    .intro {
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 433px) {
+    .Education {
+        width: 80vw;
+    }
+}
+/* 
+@media (max-width: 480px) {
+    .about-content {
+        margin-left: 30px;
+    }
+} */

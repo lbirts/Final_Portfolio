@@ -4,12 +4,13 @@
 
 #home {
     padding-bottom: 60px;
+    height: 100vh
 }
 
 .info {
     width: 540px;
     margin-left: 12%;
-    padding-top: 300px;
+    padding-top: 350px;
     position: relative;
     top: 40px;
     /* margin: 0 auto */
@@ -204,6 +205,21 @@ button a {
     .btn {
         width: 120px;
         height: 40px;
+    }
+}
+
+@media (max-width: 585) {
+    #home {
+        height: 100vh;
+    }
+    button a {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    button a {
+        font-size: 0.7rem;
     }
 }
 /* @media only screen and (max-width: 1200px) {

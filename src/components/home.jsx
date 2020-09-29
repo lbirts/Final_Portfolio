@@ -4,6 +4,7 @@ import Lottie from 'react-lottie-segments';
 import Json from '../assets/coding-girl.json';
 import Typed from 'react-typed';
 import './home.css';
+import Resume from '../assets/Resume.pdf'
 
 function Home(props) {
   return (
@@ -27,8 +28,8 @@ function Home(props) {
           }}
         /> */}
         <div className="buttons">
-          <button className="btn download-btn"><a href="www.google.com">View Resume</a></button>
-          <button className="btn contact-btn"><Link smooth to='/contact'>Contact me</Link></button>
+          <button className="btn download-btn"><a href={Resume}>View Resume</a></button>
+          <button className="btn contact-btn"><a href="mailto:birtslauren@gmail.com">Contact me</a></button>
         </div>
       </div>
 

@@ -88,7 +88,7 @@ function Nav(props) {
           <a href="https://linkedin.com/lauren-birts" target="_blank" rel="noopener noreferrer" aria-label="Linkedin" data-tip="Linkedin" data-place="right">
             <i className="fa fa-linkedin social-i"></i>
           </a>
-          <a href="https://twitter.com/codeLo" target="_blank" rel="noopener noreferrer" aria-label="Twitter" data-tip="Twitter" data-place="right">
+          <a href="https://twitter.com/_codeLo" target="_blank" rel="noopener noreferrer" aria-label="Twitter" data-tip="Twitter" data-place="right">
             <i className="fa fa-twitter social-i"></i>
           </a>
           <a href="https://medium.com/@birtslauren" target="_blank" rel="noopener noreferrer" aria-label="Medium" data-tip="Medium" data-place="right">

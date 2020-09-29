@@ -43,5 +43,14 @@
         "tech": "Ruby, Rails, React, Javascript, WebRTC, VoiceToText, GoogleShopping",
         "github": "https://github.com/lbirts/backend_wholisticLiving",
         "demo": "https://youtu.be/k3z_knTxln4"
+    },
+    {
+        "image": "https://lbportfolio.s3.us-east-2.amazonaws.com/bmiCalculator.png",
+        "name": "BMI Calculator",
+        "type": "Mobile App",
+        "description": "Mobile app that calculates BMI and provides body positive affirmations",
+        "tech": "React Native, Javascript",
+        "github": "https://github.com/lbirts/BodyPosi-App",
+        "demo": " https://youtu.be/C0Isf77aOLk"
     }
   ]
